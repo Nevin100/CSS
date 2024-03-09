@@ -1,0 +1,37 @@
+*{
+    margin:0;
+    padding:0;
+}
+nav{
+    padding: 5px;
+}
+nav a{
+    text-decoration: none;
+    margin-left:70px;
+    padding:5px;
+}
+header{
+    background-color: palegreen;
+    height:25px;
+}
+#first{
+    background-color:green;
+    width:100px;
+    height:100px;
+    border-radius:50%;
+    text-align: center;
+    margin:10px;
+    padding:2px;
+
+}
+.box{
+    height:100px;
+    width:100px;
+    background-color:bisque;
+    display:inline;
+    margin:5px;
+    padding:4px;
+}
+#container{
+    border:solid purple 6px;
+}

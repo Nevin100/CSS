@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.box{
+    height:122px;
+    width:122px;
+    background-color:bisque;
+    border: 3px solid black;
+    margin:3px;
+}
+#first{
+    position: static;
+}
+#second{
+    position:absolute;
+    top: 20px;
+    left: 90px;
+}
+#third{
+    position:relative;
+    top:20px;
+}
+#fourth{
+    position:fixed;
+
+}

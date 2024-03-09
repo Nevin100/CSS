@@ -1,0 +1,30 @@
+.container{
+    display:grid;
+    grid-template-columns: 50px 50px;
+    grid-template-rows: 50px 50px;
+}
+
+#item1{
+    grid-column: 1/2;
+    grid-row: 1/2;
+    background-color:coral ;
+}
+
+#item2{
+    grid-column: 2/2;
+    grid-row: 1/2;
+    background-color: indianred;
+}
+
+#item3{
+    grid-column: 1/2;
+    grid-row: 2/2;
+    background-color:burlywood;
+}
+
+#item4{
+    grid-column: 2/2;
+    grid-row: 2/2;
+    background-color:cornflowerblue;
+
+}

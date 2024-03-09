@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Animation </title>
+    <style>
+        .Pseudo{
+            height: 25px;
+            width: 50px;
+            background-color: cornflowerblue;
+            border:2px solid burlywood;
+            border-radius: 10px;        
+            transition-property: all 1s ease-in-out;
+            position: relative;
+            top: 50px;
+            left:50px;    
+            
+            animation-name: ghumakkad;
+            animation-duration: 2s;
+            animation-timing-function: ease-in-out;
+            animation-delay: 1s;
+            
+            animation-iteration-count: infinite;
+            animation-direction: alternate-reverse;
+        }
+        @keyframes ghumakkad {
+            from {left:10px;}
+            to{left: 200px;}
+        }  
+    </style>
+</head>
+<body>
+    <button class="Pseudo">Animation</button>     
+</body>
+</html>  

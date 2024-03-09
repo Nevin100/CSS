@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#First{
+    color:blanchedalmond;
+    background-color: crimson ;
+    text-align: center;
+    height: 54px;
+    text-decoration: underline;
+    text-transform: capitalize;
+}
+.body1{
+     
+        font-family: "Timmana", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+}
+#outerdiv{
+    font-size: 25px;
+}
+#innerdiv{
+    font-size: 10px;
+}
